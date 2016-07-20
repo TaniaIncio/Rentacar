@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back_car"
+    tools:context=".presentation.activity.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:id="@+id/linear_opc_piura"
+        android:background="@drawable/effect_ripple_row"
+        >
+        <TextView
+            android:text="@string/title_piura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/auto"
+            android:drawablePadding="20dp"
+            android:gravity="center"
+            style="@style/TextTitle"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/white">
+
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:id="@+id/linear_opc_talara"
+        android:background="@drawable/effect_ripple_row"
+        >
+        <TextView
+            android:text="@string/title_talara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/auto"
+            android:drawablePadding="20dp"
+            android:gravity="center"
+            style="@style/TextTitle"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/white">
+
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:id="@+id/linear_opc_tumbes"
+        android:background="@drawable/effect_ripple_row"
+        >
+        <TextView
+            android:text="@string/title_tumbes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/auto"
+            android:drawablePadding="20dp"
+            android:gravity="center"
+            style="@style/TextTitle"
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/effect_ripple_row"
+   >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_item_group"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@color/shadow"
+        android:typeface="normal"
+        android:drawableRight="@mipmap/ic_keyboard_arrow_down_white_18dp"
+        android:drawablePadding="8dp"
+        android:text="Group "/>
+</LinearLayout>

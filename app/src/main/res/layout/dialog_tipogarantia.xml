@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_visa"
+        android:checked="true"
+        android:layout_marginBottom="6dp"
+        android:textSize="17sp"
+        android:text="@string/radio_tipogarantia_visa"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_mastercard"
+        android:layout_marginBottom="6dp"
+        android:textSize="17sp"
+        android:text="@string/radio_tipogarantia_mastercard"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_diners"
+        android:layout_marginBottom="6dp"
+        android:textSize="17sp"
+        android:text="@string/radio_tipogarantia_diners"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_americanexpress"
+        android:layout_marginBottom="6dp"
+        android:textSize="17sp"
+        android:text="@string/radio_tipogarantia_americanexpress"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_cheque"
+        android:layout_marginBottom="6dp"
+        android:textSize="17sp"
+        android:text="@string/radio_tipogarantia_cheque"/>
+</RadioGroup>
+
+</LinearLayout>

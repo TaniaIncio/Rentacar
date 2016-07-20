@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Rent a car Piura</string>
+
+    <!--titles-->
+    <string name="title_piura">Sucursal Piura</string>
+    <string name="title_talara">Sucursal Talara</string>
+    <string name="title_tumbes">Sucursal Tumbes</string>
+    <string name="title_activity_navigation_drawable">NavigationDrawableActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_inicio">Inicio</string>
+    <string name="title_activity_navigation_menu">RentacarPiura</string>
+
+    <!--menu-->
+    <string name="menu_vehiculo">Vehículo</string>
+    <string name="menu_reservaciones">Reservaciones</string>
+    <string name="menu_servicios">Servicios</string>
+    <string name="menu_preguntas">Preg.Frecuentes</string>
+    <string name="menu_contacto">Contacto</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--name radiobutton-->
+    <string name="radio_peruano">Peruano</string>
+    <string name="radio_extranjero">Extranjero</string>
+    <string name="radio_tipogarantia_visa">VISA</string>
+    <string name="radio_tipogarantia_mastercard">MasterCard</string>
+    <string name="radio_tipogarantia_diners">Diners</string>
+    <string name="radio_tipogarantia_americanexpress">American Express</string>
+    <string name="radio_tipogarantia_cheque">Cheque Empresarial - US$600.00 (previa evalución y confirmación de nuestra parte)</string>
+
+    <!--emails sucursales-->
+    <string name="email_piura">reservas@rentacarpiura.com</string>
+    <string name="email_talara">reservas@rentacartalara.net</string>
+    <string name="email_tumbes">reservas@rentacartumbes.com</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps_activitys">Map</string>
+</resources>
